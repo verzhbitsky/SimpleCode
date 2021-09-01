@@ -3,19 +3,21 @@ using namespace std;
 
 int main()
 {
-    cout << "One" << endl;
+    setlocale(LC_ALL, "ru");
+
+    cout << "Один" << endl;
 
     goto link;
 
-    cout << "Two" << endl;
+    cout << "Два" << endl;
 
-    cout << "Three" << endl;
+    cout << "Три" << endl;
 
     link:
 
-    cout << "Four" << endl;
+    cout << "Четыре" << endl;
 
-    cout << "Five" << endl;
+    cout << "Пять" << endl;
 
     return 0;
 }
